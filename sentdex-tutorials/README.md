@@ -1,4 +1,4 @@
-Since I never code in go, I decided to take a course in YouTube.
+Since I never code in Go, I decided to take a course in YouTube.
 In this folder are some of the files created in each lerson.
 
 I liked the course because it is not from start. The author presumes that you already know some programming language (python).
