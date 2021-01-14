@@ -11,7 +11,7 @@ func main() {
 
 		// This verify if there is a GET parameter "msg" and returns it for the user.
 		if r.URL.Query().Get("msg") != "" {
-			fmt.Fprintf(w, "You sent this message: "+r.URL.Query().Get("msg"))
+			fmt.Fprintf(w, "You sent this message: %s", r.URL.Query().Get("msg"))
 		}
 	})
 
